@@ -51,25 +51,33 @@ $firstSeasonMatch = [
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SNACKS</title>
 </head>
+
 <body>
-    
-<?php 
-for($i=0 ; $i < count($firstSeasonMatch); $i++){
-?>
 
-<p>
-    <?php echo $firstSeasonMatch[$i]['home'] ?> - <?php echo $firstSeasonMatch[$i]['away']?> | <?php echo $firstSeasonMatch[$i]['home_points']?> - <?php echo $firstSeasonMatch[$i]['away_points'] ?></p>
+    <?php
+    for ($i = 0; $i < count($firstSeasonMatch); $i++) {
+    ?>
 
-<?php } ?>
+        <p>
+            <?php
+            echo $firstSeasonMatch[$i]['home'];
+            echo ' - ';
+            echo $firstSeasonMatch[$i]['away'];
+            echo ' | ';
+            echo $firstSeasonMatch[$i]['home_points'];
+            echo ' - ';
+            echo $firstSeasonMatch[$i]['away_points'] ?>
+        </p>
 
+    <?php } ?>
 
 </body>
+
 </html>
-
-
