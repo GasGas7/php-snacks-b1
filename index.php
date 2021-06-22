@@ -59,13 +59,6 @@ $firstSeasonMatch = [
 </head>
 <body>
     
-
-
-
-</body>
-</html>
-
-
 <?php 
 for($i=0 ; $i < count($firstSeasonMatch); $i++){
 ?>
@@ -74,3 +67,9 @@ for($i=0 ; $i < count($firstSeasonMatch); $i++){
     <?php echo $firstSeasonMatch[$i]['home'] ?> - <?php echo $firstSeasonMatch[$i]['away']?> | <?php echo $firstSeasonMatch[$i]['home_points']?> - <?php echo $firstSeasonMatch[$i]['away_points'] ?></p>
 
 <?php } ?>
+
+
+</body>
+</html>
+
+
