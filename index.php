@@ -67,7 +67,7 @@ $firstSeasonMatch = [
 
 
 <?php 
-for($i>0 ; $i < count($firstSeasonMatch); $i++){
+for($i=0 ; $i < count($firstSeasonMatch); $i++){
 ?>
 
 <p>
