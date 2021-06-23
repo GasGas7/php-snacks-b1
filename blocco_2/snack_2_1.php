@@ -27,8 +27,8 @@ La prima farà una chiamata GET alla seconda attraverso un form.
         <input type="text" name="name" id="name">
 
 
-        <input type="submit" value="">
-    </a>    
+        <input type="submit" value="BOTTONE">
+      
 
     </form>
 </body>
