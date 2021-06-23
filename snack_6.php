@@ -40,15 +40,10 @@ $db = [
     <style>
         .gray {
             background-color: gray;
-        }
-
-        ;
-
-        .green {
+        };
+       .green {
             background-color: green;
-        }
-
-        ;
+        };
     </style>
 </head>
 
