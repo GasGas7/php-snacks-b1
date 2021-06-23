@@ -32,7 +32,7 @@ Passare come parametri GET name, mail e age e verificare (cercando i metodi che 
     <p>
         <?php
 
-        var_dump($_GET["name"], $_GET['mail'], $_GET['age'] );
+        #var_dump($_GET["name"], $_GET['mail'], $_GET['age'] );
 
         #var_dump(strpos($_GET['mail'], '.'));
         $controlEmail = false;
