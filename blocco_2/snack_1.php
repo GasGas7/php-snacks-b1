@@ -62,7 +62,7 @@ foreach($ads as $key => $value){
 <?php if($value['is_active'] == true){
 ?>    
 
-<img src="<?php $newURL ?>">
+<img src="<?php echo $newURL ?>">
 
     <?php } else{
      echo "l'immagine non è attiva";}}
